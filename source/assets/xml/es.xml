@@ -1,0 +1,42 @@
+<strings id="es">
+	<THIS_LANGUAGE><![CDATA[Español]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[Presione BACK nuevamente para salir...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[Idioma]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[Adivina tu idioma por defecto]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccy es un analizador de espectro de audio. Mostrará el espectro de sonido detectado a través del micrófono de su dispositivo.%0d• Toque y arrastre alrededor del gráfico para inspeccionar una frecuencia específica (puede hacer esto mientras está en pausa también)%0d• Haga un pellizco de 2 dedos para acercar/alejar%0d• Haga un arrastre de 2 dedos para desplazarse por el espectro cuando haga enfocar (experimental)%0d• Toque el icono CLIPBOARD para copiar una instantánea de los datos del espectro en el portapapeles en formato CSV (Hz, dB, pico)%0d• Toque el icono rojo REFRESH para restablecer la retención de picos%0d• Toque esta casilla o el botón ATRÁS de su dispositivo para cerrar la ayuda%0d• Envíe comentarios y sugerencias a: ]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[Datos de instantáneas copiados al portapapeles como valores separados%0dpor comas: Hz, dB, pico]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[Lo siento, tu dispositivo no me dejó copiar al portapapeles]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[ESPERO QUE DISFRUTES DE SPECCY%0d%0dRealmente te agradecería que pudieras calificar la aplicación, me ayudaría mucho. ¡Gracias! Este mensaje se autodestruirá en {x} segundos.%0d%0dToque AQUÍ para calificar, o toque ATRÁS para borrar esto.]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[Gracias por usar Speccy. Considere calificar la aplicación para ayudarme, ¡gracias!%0dToque AQUÍ para calificar.%0d%0d]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[Cerca]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[Reiniciar]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[Necesito ayuda con las traducciones. Si detecta un error o desea que se agregue su idioma, avíseme. Gracias :)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[TASA DE MUESTRA DE MICRÓFONO%0dAcerca de 44100Hz poco probable]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[La frecuencia de muestreo es el número de veces que se solicitan datos por segundo desde el micrófono del dispositivo. Tenga en cuenta que los valores superiores a 44100 pueden no ser compatibles, en cuyo caso, se utilizará el máximo de 44100.]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[Toca esta casilla para cerrarla]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[GANANCIA DE%0dMICRÓFONO: ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[Puede aumentar o reducir la sensibilidad de su micrófono cambiando la 'ganancia', que podría ser útil para calibrar el analizador para determinadas situaciones. El valor normal / predeterminado es 50%.]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[LONGITUD FFT]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[Este es el número de divisiones de frecuencia (o 'bins') en que el analizador divide el audio muestreado. Los valores más altos ofrecen un análisis más preciso, pero pueden ser más lentos en algunos dispositivos.]]></FFT_LENGTH_HELP>
+	<FREQUENCY_SCALE_LOG_BASE><![CDATA[BASE DE ESCALA DE FRECUENCIA]]></FREQUENCY_SCALE_LOG_BASE>
+	<FREQUENCY_SCALE_LOG_HELP><![CDATA[Puede cambiar la 'base' logarítmica para la escala de frecuencia. Una escala logarítmica está más cerca de cómo el oído humano percibe el sonido, pero es posible que desee establecer la base en 1 para una escala lineal.]]></FREQUENCY_SCALE_LOG_HELP>
+	<UPDATE_PERIOD><![CDATA[ACTUALIZAR EL PERIODO (ms)]]></UPDATE_PERIOD>
+	<TIMES_PER_SECOND><![CDATA[tiempos por segundo]]></TIMES_PER_SECOND>
+	<UNRELIABLE><![CDATA[no fidedigno]]></UNRELIABLE>
+	<WATERFALL_PALETTE><![CDATA[PALETA DE LA CASCADA]]></WATERFALL_PALETTE>
+	<DRAW_MAX_HOLD><![CDATA[DIBUJAR RETENCIÓN MÁXIMA %0d(picos rojos)]]></DRAW_MAX_HOLD>
+	<PEAK_DECAY><![CDATA[DECAIMIENTO MÁXIMO:%0d]]></PEAK_DECAY>
+	<OFF><![CDATA[APAGADO]]></OFF>
+	<PEAK_DECAY_HELP><![CDATA[Si lo desea, puede establecer que la retención de picos se despliegue con el tiempo, de forma similar a la visualización de ecualización de los viejos sistemas estéreo.]]></PEAK_DECAY_HELP>
+	<SMOOTHING_FACTOR><![CDATA[FACTOR DE ALISADO:%0d]]></SMOOTHING_FACTOR>
+	<SMOOTHING_FACTOR_HELP><![CDATA[La reducción de este valor reduce la "inestabilidad" del analizador, pero lo hará menos sensible / preciso.]]></SMOOTHING_FACTOR_HELP>
+	<MINIMUM_FREQUENCY><![CDATA[FRECUENCIA MÍNIMA]]></MINIMUM_FREQUENCY>
+	<MAXIMUM_FREQUENCY><![CDATA[FRECUENCIA MÁXIMA]]></MAXIMUM_FREQUENCY>
+	<SETTINGS_FOOTER><![CDATA[NOTA: Aún puede hacer enfocar y desplazarse por la %0dcuadrícula con un pinzamiento 2-dedo y arrastre %0d(experimental)]]></SETTINGS_FOOTER>
+	<SETTINGS_ROTATE_PROMPT><![CDATA[GIRE SU DISPOSITIVO%0dINTO MODO RETRATO%0dTO VEA TODAS LAS%0dCONFIGURACIONES]]></SETTINGS_ROTATE_PROMPT>
+	<LINEAR_SCALE><![CDATA[Escala lineal]]></LINEAR_SCALE>
+	<LOGARITHMIC_SCALE><![CDATA[escala logarítmica]]></LOGARITHMIC_SCALE>
+	<NATURAL_LOG_2><![CDATA[Logaritmo natural de 2]]></NATURAL_LOG_2>
+	<NATURAL_LOG_BASE><![CDATA[Base logarítmica natural]]></NATURAL_LOG_BASE>
+	<ROOT><![CDATA[raíz]]></ROOT>
+</strings>

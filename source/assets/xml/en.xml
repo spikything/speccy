@@ -1,0 +1,42 @@
+<strings id="en">
+    <THIS_LANGUAGE><![CDATA[English]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[Press BACK again to exit...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[Language]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[Guesses your language by default]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccy is an Audio Spectrum Analyzer. It will display the spectrum of sound detected through your device's microphone.%0d%0d• Tap and drag around the graph to inspect a specific frequency (you can do this while paused too)%0d%0d• Do a 2-finger pinch to zoom in/out%0d%0d• Do a 2-finger drag to pan across the spectrum when zoomed in (experimental)%0d%0d• Tap the CLIPBOARD icon to copy a snapshot of the spectrum data to the clipboard in CSV format (Hz,dB,peak)%0d%0d• Tap the red REFRESH icon to reset the peak hold%0d%0d• Tap this box or your device's BACK button to close help%0d%0d• Send feedback and suggestions to: ]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[Snapshot data copied to clipboard as%0dComma Separated Values: Hz, dB, peak]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[Sorry, your device didn't let me copy to clipboard]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[I HOPE YOU'RE ENJOYING SPECCY%0d%0dI'd really appreciate it if you could rate the app, it would help me out a lot. Thanks! This message will self-destruct in {x} seconds.%0d%0dTap HERE to rate, or tap BACK to clear this.]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[Thanks for using Speccy. Please consider rating the app to help me out, thanks!%0dTap HERE to rate.%0d%0d]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[Close]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[Reset defaults]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[I need help with translations. If you spot a mistake, or would like your language added, let me know. Thanks :)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[MICROPHONE SAMPLE RATE (Hz)%0dAbove 44100 may not be supported]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[The sample rate is the number of times per second data is requested from your device's microphone. Note that values higher than 44100 may not be supported, in which case, the maximum of 44100 will be used.]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[Tap this box to close it]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[MICROPHONE GAIN: ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[You can boost or reduce your microphone's sensitivity by changing the 'gain', which could be useful for calibrating the analyzer for certain situations The normal/default value is 50%.]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[FFT LENGTH]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[This is the number of frequency divisions (or 'bins') the analyzer divides the sampled audio into. Higher values give more accurate analysis, but may be slower on some devices.]]></FFT_LENGTH_HELP>
+    <FREQUENCY_SCALE_LOG_BASE><![CDATA[FREQUENCY SCALE LOG BASE]]></FREQUENCY_SCALE_LOG_BASE>
+    <FREQUENCY_SCALE_LOG_HELP><![CDATA[You can change the logarithmic 'base' for the frequency scale. A logarithmic scale is closer to how the human hear perceives sound, but you may want to set the base to 1 for a linear scale.]]></FREQUENCY_SCALE_LOG_HELP>
+    <UPDATE_PERIOD><![CDATA[UPDATE PERIOD (ms)]]></UPDATE_PERIOD>
+    <TIMES_PER_SECOND><![CDATA[times per second]]></TIMES_PER_SECOND>
+    <UNRELIABLE><![CDATA[unreliable]]></UNRELIABLE>
+    <WATERFALL_PALETTE><![CDATA[WATERFALL PALETTE]]></WATERFALL_PALETTE>
+    <DRAW_MAX_HOLD><![CDATA[DRAW MAX HOLD (red peaks)]]></DRAW_MAX_HOLD>
+    <PEAK_DECAY><![CDATA[PEAK DECAY: ]]></PEAK_DECAY>
+    <OFF><![CDATA[OFF]]></OFF>
+    <PEAK_DECAY_HELP><![CDATA[If you want, you can set the peak hold to drop down over time, similar to the EQ display of old stereo systems.]]></PEAK_DECAY_HELP>
+    <SMOOTHING_FACTOR><![CDATA[SMOOTHING FACTOR: ]]></SMOOTHING_FACTOR>
+    <SMOOTHING_FACTOR_HELP><![CDATA[Reducing this value reduces the 'jitter' of the analyzer, but will make it less responsive/accurate.]]></SMOOTHING_FACTOR_HELP>
+    <MINIMUM_FREQUENCY><![CDATA[MINIMUM FREQUENCY]]></MINIMUM_FREQUENCY>
+    <MAXIMUM_FREQUENCY><![CDATA[MAXIMUM FREQUENCY]]></MAXIMUM_FREQUENCY>
+    <SETTINGS_FOOTER><![CDATA[NOTE: You can still zoom and pan the grid with a%0dtwo-finger pinch and drag (experimental)]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[ROTATE YOUR DEVICE%0dINTO PORTRAIT MODE%0dTO SEE ALL SETTINGS]]></SETTINGS_ROTATE_PROMPT>
+    <LINEAR_SCALE><![CDATA[Linear scale]]></LINEAR_SCALE>
+    <LOGARITHMIC_SCALE><![CDATA[logarithmic scale]]></LOGARITHMIC_SCALE>
+    <NATURAL_LOG_2><![CDATA[Natural logarithm of 2]]></NATURAL_LOG_2>
+    <NATURAL_LOG_BASE><![CDATA[Natural logarithmic base]]></NATURAL_LOG_BASE>
+    <ROOT><![CDATA[root]]></ROOT>
+</strings>

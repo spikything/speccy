@@ -1,0 +1,42 @@
+<strings id="fr">
+    <THIS_LANGUAGE><![CDATA[Français]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[Appuyez à nouveau sur RETOUR pour quitter...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[La langue]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[Devine votre langue par défaut]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccy est un analyseur de spectre audio. Il affiche le spectre du son détecté par le microphone de votre appareil.%0d• Tapez sur le graphique et faites-le glisser pour inspecter une fréquence spécifique (vous pouvez également le faire en mode pause)%0d%0d zoom avant / arrière%0d• Faites glisser deux doigts pour parcourir le spectre lorsque vous effectuez un zoom avant (expérimental)%0d• Appuyez sur l'icône 'Presse-papiers' pour copier un instantané des données de spectre dans le presse-papiers au format CSV format (Hz, dB, crête)%0d• Appuyez sur l'icône rouge RAFRAÎCHIR pour réinitialiser le pic de maintien%0d• Appuyez sur cette case ou sur le bouton RETOUR de votre appareil pour fermer%0d%0d et des suggestions pour: ]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[Données instantanées copiées dans le Presse-papiers sous la forme%0dValeurs séparées par des virgules: Hz, dB, crête]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[Désolé, votre appareil ne m'a pas laissé copier dans le presse-papier]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[J'ESPÈRE QUE VOUS PROFITEZ DE SPECCY%0d%0dJ'apprécierais vraiment si vous pouviez évaluer l'application, cela m'aiderait beaucoup. Merci! Ce message s'autodétruira dans {x} secondes.%0d%0dCliquez ICI pour noter, ou appuyez sur RETOUR pour effacer cela.]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[Merci d'utiliser Speccy. S'il vous plaît considérer l'évaluation de l'application pour m'aider, merci!%0dTapez ICI pour noter.%0d%0d]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[Fermer]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[Réinitialiser]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[J'ai besoin d'aide pour les traductions. Si vous repérez une erreur ou si vous souhaitez ajouter votre langue, faites-le moi savoir. Merci :)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[La fréquence d'échantillonnage %0ddu microphone (Hz)%0d44100+ n'est peut-être pas prise en charge]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[La fréquence d'échantillonnage est le nombre de fois par seconde que les données sont demandées depuis le microphone de votre appareil. Notez que les valeurs supérieures à 44100 peuvent ne pas être prises en charge, auquel cas le maximum de 44100 sera utilisé.]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[Touchez cette case pour le fermer]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[GAIN DE MICROPHONE: ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[Vous pouvez augmenter ou réduire la sensibilité de votre microphone en changeant le «gain», ce qui pourrait être utile pour calibrer l'analyseur dans certaines situations. La valeur normale / par défaut est de 50%.]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[LONGUEUR FFT]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[C'est le nombre de divisions de fréquence (ou «bins») dans lesquelles l'analyseur divise l'audio échantillonné. Des valeurs plus élevées donnent une analyse plus précise, mais peuvent être plus lentes sur certains appareils.]]></FFT_LENGTH_HELP>
+    <FREQUENCY_SCALE_LOG_BASE><![CDATA[FRÉQUENCE LOGARITHMIQUE BASE]]></FREQUENCY_SCALE_LOG_BASE>
+    <FREQUENCY_SCALE_LOG_HELP><![CDATA[Vous pouvez changer la «base» logarithmique pour l'échelle de fréquence. Une échelle logarithmique est plus proche de la façon dont l'oreille humaine perçoit le son, mais vous pouvez définir la base à 1 pour une échelle linéaire.]]></FREQUENCY_SCALE_LOG_HELP>
+    <UPDATE_PERIOD><![CDATA[MISE À JOUR (ms)]]></UPDATE_PERIOD>
+    <TIMES_PER_SECOND><![CDATA[fois par seconde]]></TIMES_PER_SECOND>
+    <UNRELIABLE><![CDATA[non fiable]]></UNRELIABLE>
+    <WATERFALL_PALETTE><![CDATA[PALETTE DE CASCADE]]></WATERFALL_PALETTE>
+    <DRAW_MAX_HOLD><![CDATA[DESSINER AU MAXIMUM (pics rouges)]]></DRAW_MAX_HOLD>
+    <PEAK_DECAY><![CDATA[PIC DE DÉCOMPOSITION:%0d]]></PEAK_DECAY>
+    <OFF><![CDATA[EN CONGÉ]]></OFF>
+    <PEAK_DECAY_HELP><![CDATA[Si vous le souhaitez, vous pouvez définir le maintien de la crête pour le faire descendre dans le temps, similaire à l'affichage EQ des anciens systèmes stéréo.]]></PEAK_DECAY_HELP>
+    <SMOOTHING_FACTOR><![CDATA[FACTEUR DE LISSAGE: ]]></SMOOTHING_FACTOR>
+    <SMOOTHING_FACTOR_HELP><![CDATA[Réduire cette valeur réduit la «gigue» de l'analyseur, mais le rendra moins réactif / précis.]]></SMOOTHING_FACTOR_HELP>
+    <MINIMUM_FREQUENCY><![CDATA[FRÉQUENCE MINIMALE]]></MINIMUM_FREQUENCY>
+    <MAXIMUM_FREQUENCY><![CDATA[FRÉQUENCE MAXIMALE]]></MAXIMUM_FREQUENCY>
+    <SETTINGS_FOOTER><![CDATA[NB: Vous pouvez toujours zoomer et faire un panoramique%0dde la grille avec un pincement à deux doigts et un glisser%0d(expérimental)]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[FAITES TOURNER VOTRE APPAREIL%0dEN MODE PORTRAIT%0dPOUR VOIR TOUS%0dLES PARAMÈTRES]]></SETTINGS_ROTATE_PROMPT>
+    <LINEAR_SCALE><![CDATA[Échelle linéaire]]></LINEAR_SCALE>
+    <LOGARITHMIC_SCALE><![CDATA[échelle logarithmique]]></LOGARITHMIC_SCALE>
+    <NATURAL_LOG_2><![CDATA[Logarithme naturel de 2]]></NATURAL_LOG_2>
+    <NATURAL_LOG_BASE><![CDATA[Base logarithmique naturelle]]></NATURAL_LOG_BASE>
+    <ROOT><![CDATA[racine carrée]]></ROOT>
+</strings>

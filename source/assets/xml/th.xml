@@ -1,0 +1,42 @@
+<strings id="th">
+	<THIS_LANGUAGE><![CDATA[ไทย]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[กด BACK (กลับ) อีกครั้งเพื่อออกจาก ...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[ภาษา]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[ค่าเริ่มต้น: เดาภาษาของคุณ]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccy เป็นเครื่องวิเคราะห์สเปกตรัมเสียง จะแสดงสเปกตรัมของเสียงที่ตรวจพบผ่านไมโครโฟนของอุปกรณ์%0d%0d•แตะและลากรอบกราฟเพื่อตรวจสอบความถี่เฉพาะ (คุณสามารถทำเช่นนี้ในขณะที่หยุดชั่วคราว)%0d%0d•ใช้นิ้ว 2 นิ้ว ซูมเข้า / ออก%0d%0d•ลาก 2 นิ้วเพื่อแพนทั่วสเปกตรัมเมื่อซูมเข้า (ทดลอง)%0d%0d•แตะไอคอน CLIPBOARD เพื่อคัดลอกข้อมูลสเปรดชีตไปยังคลิปบอร์ดในรูปแบบ CSV (Hz, dB, peak)%0d%0d•แตะไอคอน REFRESH (ซาบซ่าน) สีแดงเพื่อตั้งค่าจุดสูงสุด%0d%0d•แตะที่ช่องนี้หรือปุ่มย้อนกลับของอุปกรณ์เพื่อปิด%0d%0d ช่วยเหลือ•ส่งข้อเสนอแนะและคำแนะนำไปที่:]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[ข้อมูลสแนปช็อตที่คัดลอกไปยังคลิปบอร์ดเป็น%0dจุลภาคค่าที่แยกจากกัน (CSV): Hz, dB, peak (จุดสูงสุด)]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[ขออภัยอุปกรณ์ของคุณไม่อนุญาตให้คัดลอกไปยังคลิปบอร์ด]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[เราหวังว่าคุณจะพอใจ SPECCY%0d%0dเราจะรู้สึกยินดีอย่างยิ่งหากคุณจะทำการให้คะแนนแอปพลิเคชั่นของเรา จะช่วยให้เราสามารถทราบถึงความพึงพอใจของคุณ ขอบคุณ!%0d%0dแตะที่นี่เพื่อให้คะแนนหรือแตะกลับเพื่อล้างข้อมูลนี้]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[เราหวังว่าคุณจะพอใจ SPECCY%0d%0dเราจะรู้สึกยินดีอย่างยิ่งหากคุณจะทำการให้คะแนนแอปพลิเคชั่นของเรา จะช่วยให้เราสามารถทราบถึงความพึงพอใจของคุณ ขอบคุณ!%0d%0dแตะที่นี่เพื่อให้คะแนนหรือแตะกลับเพื่อล้างข้อมูลนี้]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[ปิด]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[รีเซ็ต]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[ฉันต้องการความช่วยเหลือเกี่ยวกับการแปล หากคุณเห็นข้อผิดพลาดหรือต้องการเพิ่มภาษาของคุณโปรดแจ้งให้เราทราบ ขอบคุณ :)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[อัตราเฟรมไมโครโฟน (Hz)%0d44100+ อาจไม่ได้รับการสนับสนุน]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[อัตราตัวอย่างคือจำนวนครั้งต่อวินาทีที่ขอข้อมูลจากไมโครโฟนของอุปกรณ์ โปรดทราบว่าค่าที่สูงกว่า 44100 อาจไม่ได้รับการสนับสนุนซึ่งในกรณีนี้จะใช้จำนวนสูงสุด 44100 รายการ]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[แตะช่องนี้เพื่อปิด]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[กำไรจากไมโครโฟน: ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[คุณสามารถเพิ่มหรือลดความไวของไมโครโฟนโดยการเปลี่ยน gain (ผลประโยชน์) ซึ่งอาจเป็นประโยชน์สำหรับการปรับเทียบเครื่องวิเคราะห์สำหรับบางสถานการณ์ค่าปกติ / ค่าเริ่มต้นคือ 50%]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[ความยาว FFT]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[นี่คือจำนวนหน่วยความถี่ (หรือ 'bins') เครื่องวิเคราะห์จะแบ่งเสียงตัวอย่างลงใน ค่าที่สูงกว่าให้การวิเคราะห์ที่แม่นยำมากขึ้น แต่อาจทำงานได้ช้าลงในบางอุปกรณ์]]></FFT_LENGTH_HELP>
+    <FREQUENCY_SCALE_LOG_BASE><![CDATA[ฐานความถี่ลอการิทึม]]></FREQUENCY_SCALE_LOG_BASE>
+    <FREQUENCY_SCALE_LOG_HELP><![CDATA[คุณสามารถเปลี่ยนลอการิทึม 'ฐาน' สำหรับความถี่ได้ สเกลลอการิทึมใกล้เคียงกับที่มนุษย์ได้ยินจะรับรู้เสียง แต่คุณอาจต้องการตั้งฐานเป็น 1 สำหรับระดับเส้น]]></FREQUENCY_SCALE_LOG_HELP>
+    <UPDATE_PERIOD><![CDATA[ระยะเวลาการอัพเดต (ms)]]></UPDATE_PERIOD>
+    <TIMES_PER_SECOND><![CDATA[ครั้งต่อวินาที]]></TIMES_PER_SECOND>
+    <UNRELIABLE><![CDATA[ไม่น่าเชื่อถือ]]></UNRELIABLE>
+    <WATERFALL_PALETTE><![CDATA[จานน้ำตก]]></WATERFALL_PALETTE>
+    <DRAW_MAX_HOLD><![CDATA[วาดสูงสุด (ยอดแดง)]]></DRAW_MAX_HOLD>
+    <PEAK_DECAY><![CDATA[การสลายตัวสูงสุด: ]]></PEAK_DECAY>
+    <OFF><![CDATA[ปิด]]></OFF>
+    <PEAK_DECAY_HELP><![CDATA[หากต้องการคุณสามารถตั้งค่าจุดสูงสุดเพื่อเลื่อนลงในช่วงเวลาเช่นเดียวกับการแสดง EQ ของระบบสเตอริโอเก่า]]></PEAK_DECAY_HELP>
+    <SMOOTHING_FACTOR><![CDATA[ปัจจัยการปรับให้เรียบ: ]]></SMOOTHING_FACTOR>
+    <SMOOTHING_FACTOR_HELP><![CDATA[การลดค่านี้จะลด 'โยกเยก' ของตัววิเคราะห์ แต่จะทำให้การตอบสนอง / ถูกต้องน้อยลง]]></SMOOTHING_FACTOR_HELP>
+    <MINIMUM_FREQUENCY><![CDATA[ความถี่ขั้นต่ำ]]></MINIMUM_FREQUENCY>
+    <MAXIMUM_FREQUENCY><![CDATA[ความถี่สูงสุด]]></MAXIMUM_FREQUENCY>
+    <SETTINGS_FOOTER><![CDATA[หมายเหตุ: คุณยังคงสามารถซูมและหมุนตารางด้วย%0dการหยิกและลากนิ้วสองนิ้ว (ทดลอง)]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[หมุนอุปกรณ์ของคุณ%0dเข้าสู่โหมดภาพ%0dเพื่อดูการตั้งค่าทั้งหมด]]></SETTINGS_ROTATE_PROMPT>
+    <LINEAR_SCALE><![CDATA[ระดับเชิงเส้น]]></LINEAR_SCALE>
+    <LOGARITHMIC_SCALE><![CDATA[ขนาดลอการิทึม]]></LOGARITHMIC_SCALE>
+    <NATURAL_LOG_2><![CDATA[ลอการิทึมธรรมชาติของ 2]]></NATURAL_LOG_2>
+    <NATURAL_LOG_BASE><![CDATA[ฐานลอการิทึมธรรมชาติ]]></NATURAL_LOG_BASE>
+    <ROOT><![CDATA[ราก]]></ROOT>
+</strings>

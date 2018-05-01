@@ -1,8 +1,8 @@
-<strings id="po">
+<strings id="pl">
 	<THIS_LANGUAGE><![CDATA[Polski]]></THIS_LANGUAGE>
     <EXIT_PROMPT_TEXT><![CDATA[Naciśnij ponownie WSTECZ aby zamknąć]]></EXIT_PROMPT_TEXT>
     <LANGUAGE><![CDATA[Język]]></LANGUAGE>
-    <LANGUAGE_SUBTITLE><![CDATA[Domyślnym językiem jest język systemowy]]></LANGUAGE_SUBTITLE>
+    <LANGUAGE_SUBTITLE><![CDATA[Domyślnym językiem jest %0djęzyk systemowy]]></LANGUAGE_SUBTITLE>
     <TUTORIAL_TEXT><![CDATA[Speccy to Analizator Spektrum Audio. Wyświetla spektrum dźwięku zbieranego przez mikrofon.%0d• Dotknij i przeciągnij po wykresie, aby sprawdzić konkretną częstotliwość (możesz to zrobić w trakcie pauzy)%0d• Uszczypnij aby powiększyć/pomniejszyć%0d• Użyj dwóch palców, aby przesuwać się po wykresie podczas powiększania (eksperymentalna)%0d• Dotknij ikonę SCHOWKA, aby skopiować zrzut danych spektrum do schowka w formacie CSV (Hz, dB, szczyt)%0d• Naciśnij czerwoną ikonę "odświeżania", aby zresetować poziom szczytu%0d• Dotknij tego pola lub przycisku "wstecz", aby zamknąć pomoc%0d• Prześlij opinię i sugestie do: ]]></TUTORIAL_TEXT>
     <CLIPBOARD_SUCCESS><![CDATA[Dane spektrum skopiowane do schowka jako%0dWartości oddzielone przecinkami (CSV): Hz, dB, szczyt]]></CLIPBOARD_SUCCESS>
     <CLIPBOARD_FAIL><![CDATA[Niestety, Nie udało się skopiować danych do schowka]]></CLIPBOARD_FAIL>
@@ -14,7 +14,7 @@
     <MIC_SAMPLE_RATE><![CDATA[PRÓBKOWANIE MIKROFONU (Hz)%0dMaksymalnie 44100 Hz]]></MIC_SAMPLE_RATE>
     <MIC_SAMPLE_RATE_HELP><![CDATA[Częstotliwość próbkowania to liczba żądań danych na sekundę odbieranych z mikrofonu. Należy pamiętać, że wartość większa niż 44100 nie jest obsługiwana, w takim przypadku zostanie użyte maksimum 44100.]]></MIC_SAMPLE_RATE_HELP>
     <TAP_TO_CLOSE><![CDATA[Dotknij ten komunikat, aby go zamknąć]]></TAP_TO_CLOSE>
-    <MIC_GAIN><![CDATA[WZMOCNIENIE CZUŁOŚCI: ]]></MIC_GAIN>
+    <MIC_GAIN><![CDATA[WZMOCNIENIE CZUŁOŚCI:%0d]]></MIC_GAIN>
     <MIC_GAIN_HELP><![CDATA[Możesz zwiększyć lub zmniejszyć czułość mikrofonu, przydatne do kalibracji analizatora w określonych sytuacjach Wartość normalna / domyślna wynosi 50%.]]></MIC_GAIN_HELP>
     <FFT_LENGTH><![CDATA[DŁUGOŚĆ FFT]]></FFT_LENGTH>
     <FFT_LENGTH_HELP><![CDATA[Jest to liczba podziałów częstotliwości (lub "bins"), w których analizator dzieli próbkowany dźwięk na. Wyższe wartości dają dokładniejszą analizę, ale na niektórych urządzeniach mogą być wolniejsze.]]></FFT_LENGTH_HELP>
@@ -24,15 +24,15 @@
     <TIMES_PER_SECOND><![CDATA[razy na sekundę]]></TIMES_PER_SECOND>
     <UNRELIABLE><![CDATA[niewiarygodne]]></UNRELIABLE>
     <WATERFALL_PALETTE><![CDATA[PALETA WATERFALOWA]]></WATERFALL_PALETTE>
-    <DRAW_MAX_HOLD><![CDATA[ZAZNACZ MAKSIMUM (zaznaczone czerwonym)]]></DRAW_MAX_HOLD>
-    <PEAK_DECAY><![CDATA[WSTRZYMANIE SZCZYTU: ]]></PEAK_DECAY>
+    <DRAW_MAX_HOLD><![CDATA[ZAZNACZ MAKSIMUM %0d(zaznaczone czerwonym)]]></DRAW_MAX_HOLD>
+    <PEAK_DECAY><![CDATA[WSTRZYMANIE SZCZYTU:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[WYŁĄCZONE]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Jeśli chcesz, możesz ustawić zatrzymanie wartości szczytowej tak, aby opadała z upływem czasu, podobnie jak w  wyświetlaczach EQ starych systemów stereo.]]></PEAK_DECAY_HELP>
     <SMOOTHING_FACTOR><![CDATA[WYGŁADZZANIE: ]]></SMOOTHING_FACTOR>
     <SMOOTHING_FACTOR_HELP><![CDATA[Zmniejszenie tej wartości zmniejsza "drganie" analizatora, ale powoduje, że jest mniej responsywny / dokładny.]]></SMOOTHING_FACTOR_HELP>
     <MINIMUM_FREQUENCY><![CDATA[Minimalna częstotliwość]]></MINIMUM_FREQUENCY>
     <MAXIMUM_FREQUENCY><![CDATA[Maksymalna częstotliwość]]></MAXIMUM_FREQUENCY>
-    <SETTINGS_FOOTER><![CDATA[UWAGA: Możesz powiększać i przesuwać siatkę, %0używając dwóch palców %0d(funkcja eksperymentalna)]]></SETTINGS_FOOTER>
+    <SETTINGS_FOOTER><![CDATA[UWAGA: Możesz powiększać i przesuwać siatkę, %0dużywając dwóch palców %0d(funkcja eksperymentalna)]]></SETTINGS_FOOTER>
     <SETTINGS_ROTATE_PROMPT><![CDATA[OBRÓĆ URZĄDZENIE %0dPIONOWO %0dABY ZOBACZYĆ WSZYSTKIE %0dUSTAWIENIA]]></SETTINGS_ROTATE_PROMPT>
     <LINEAR_SCALE><![CDATA[Skala liniowa]]></LINEAR_SCALE>
     <LOGARITHMIC_SCALE><![CDATA[skala logarytmiczna]]></LOGARITHMIC_SCALE>

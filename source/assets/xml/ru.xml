@@ -23,6 +23,7 @@
     <UPDATE_PERIOD><![CDATA[Период обновления (ms)]]></UPDATE_PERIOD>
     <TIMES_PER_SECOND><![CDATA[раз в секунду]]></TIMES_PER_SECOND>
     <UNRELIABLE><![CDATA[ненадежный]]></UNRELIABLE>
+    <WATERFALL_SIZE><![CDATA[РАЗМЕР ВОДОПАДА: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[ВОДОПАДНАЯ ПАЛИТА]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[максимальный максимум%0d(красные пики)]]></DRAW_MAX_HOLD>
     <PEAK_DECAY><![CDATA[пиковый распад:%0d]]></PEAK_DECAY>

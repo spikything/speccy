@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[瀑布尺寸: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[瀑布调色板]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[绘制最大持有量（红色峰值）]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[绘制平均值（蓝色峰值）]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[峰值衰减: ]]></PEAK_DECAY>
     <OFF><![CDATA[关闭]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[如果您愿意，可以将峰值保持设置为随着时间推移下降，类似于旧立体声系统的EQ显示。]]></PEAK_DECAY_HELP>

@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[TAMAÑO DE CASCADA: ]]></WATERFALL_SIZE>
 	<WATERFALL_PALETTE><![CDATA[PALETA DE LA CASCADA]]></WATERFALL_PALETTE>
 	<DRAW_MAX_HOLD><![CDATA[DIBUJAR RETENCIÓN MÁXIMA %0d(picos rojos)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[DIBUJO DE PROMEDIO (picos azules)]]></DRAW_AVG>
 	<PEAK_DECAY><![CDATA[DECAIMIENTO MÁXIMO:%0d]]></PEAK_DECAY>
 	<OFF><![CDATA[APAGADO]]></OFF>
 	<PEAK_DECAY_HELP><![CDATA[Si lo desea, puede establecer que la retención de picos se despliegue con el tiempo, de forma similar a la visualización de ecualización de los viejos sistemas estéreo.]]></PEAK_DECAY_HELP>

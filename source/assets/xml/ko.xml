@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[폭포 크기: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[폭포 팔레트]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[최대 홀드 그리기 (적색 피크)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[평균 횟수 그리기 (파란 봉우리)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[피크 붕괴: ]]></PEAK_DECAY>
     <OFF><![CDATA[떨어져서]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[원하는 경우 오래된 스테레오 시스템의 EQ 디스플레이와 유사하게 피크 홀드를 시간에 따라 드롭 다운하도록 설정할 수 있습니다.]]></PEAK_DECAY_HELP>

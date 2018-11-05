@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[ขนาดน้ำตก: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[จานน้ำตก]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[วาดสูงสุด (ยอดแดง)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[วาดค่าเฉลี่ย (ยอดสีฟ้า)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[การสลายตัวสูงสุด: ]]></PEAK_DECAY>
     <OFF><![CDATA[ปิด]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[หากต้องการคุณสามารถตั้งค่าจุดสูงสุดเพื่อเลื่อนลงในช่วงเวลาเช่นเดียวกับการแสดง EQ ของระบบสเตอริโอเก่า]]></PEAK_DECAY_HELP>

@@ -3,8 +3,8 @@
     <EXIT_PROMPT_TEXT><![CDATA[Press BACK again to exit...]]></EXIT_PROMPT_TEXT>
     <LANGUAGE><![CDATA[Language]]></LANGUAGE>
     <LANGUAGE_SUBTITLE><![CDATA[Guesses your language by default]]></LANGUAGE_SUBTITLE>
-    <TUTORIAL_TEXT><![CDATA[Speccy is an Audio Spectrum Analyzer. It will display the spectrum of sound detected through your device's microphone.%0d%0d• Tap and drag around the graph to inspect a specific frequency (you can do this while paused too)%0d%0d• Do a 2-finger pinch to zoom in/out%0d%0d• Do a 2-finger drag to pan across the spectrum when zoomed in (experimental)%0d%0d• Tap the CLIPBOARD icon to copy a snapshot of the spectrum data to the clipboard in CSV format (Hz,dB,peak)%0d%0d• Tap the red REFRESH icon to reset the peak hold%0d%0d• Tap this box or your device's BACK button to close help%0d%0d• Send feedback and suggestions to: ]]></TUTORIAL_TEXT>
-    <CLIPBOARD_SUCCESS><![CDATA[Snapshot data copied to clipboard as%0dComma Separated Values: Hz, dB, peak]]></CLIPBOARD_SUCCESS>
+    <TUTORIAL_TEXT><![CDATA[Speccy is an Audio Spectrum Analyzer. It will display the spectrum of sound detected through your device's microphone.%0d%0d• Tap and drag around the graph to inspect a specific frequency (you can do this while paused too)%0d%0d• Do a 2-finger pinch to zoom in/out%0d%0d• Do a 2-finger drag to pan across the spectrum when zoomed in (experimental)%0d%0d• Tap the CLIPBOARD icon to copy a snapshot of the spectrum data to the clipboard in CSV format (Hz,dB,peak,average)%0d%0d• Tap the red REFRESH icon to reset the peak hold%0d%0d• Tap this box or your device's BACK button to close help%0d%0d• Send feedback and suggestions to: ]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[Snapshot data copied to clipboard as %0dcomma separated values (CSV): %0dHz, dB, peak, average]]></CLIPBOARD_SUCCESS>
     <CLIPBOARD_FAIL><![CDATA[Sorry, your device didn't let me copy to clipboard]]></CLIPBOARD_FAIL>
     <RATE_PROMPT><![CDATA[I HOPE YOU'RE ENJOYING SPECCY%0d%0dI'd really appreciate it if you could rate the app, it would help me out a lot. Thanks! This message will self-destruct in {x} seconds.%0d%0dTap HERE to rate, or tap BACK to clear this.]]></RATE_PROMPT>
     <EXIT_RATE_PROMPT><![CDATA[Thanks for using Speccy. Please consider rating the app to help me out, thanks!%0dTap HERE to rate.%0d%0d]]></EXIT_RATE_PROMPT>
@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[WATERFALL SIZE: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[WATERFALL PALETTE]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[DRAW MAX HOLD (red peaks)]]></DRAW_MAX_HOLD>
+    <DRAW_AVG><![CDATA[DRAW AVERAGE (blue peaks)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[PEAK DECAY: ]]></PEAK_DECAY>
     <OFF><![CDATA[OFF]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[If you want, you can set the peak hold to drop down over time, similar to the EQ display of old stereo systems.]]></PEAK_DECAY_HELP>

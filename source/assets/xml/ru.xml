@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[РАЗМЕР ВОДОПАДА: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[ВОДОПАДНАЯ ПАЛИТА]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[максимальный максимум%0d(красные пики)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[средний показатель (синие пики)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[пиковый распад:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[выключено]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Если вы хотите, вы можете установить удержание пика с течением времени, аналогично экрану эквалайзера старых стереосистем.]]></PEAK_DECAY_HELP>

@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[TAILLE DE CASCADE: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[PALETTE DE CASCADE]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[DESSINER AU MAXIMUM (pics rouges)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[TIRAGE MOYEN (pics bleus)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[PIC DE DÉCOMPOSITION:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[EN CONGÉ]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Si vous le souhaitez, vous pouvez définir le maintien de la crête pour le faire descendre dans le temps, similaire à l'affichage EQ des anciens systèmes stéréo.]]></PEAK_DECAY_HELP>

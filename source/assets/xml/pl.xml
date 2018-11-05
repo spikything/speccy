@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[ROZMIAR WODOSPADU: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[PALETA WATERFALOWA]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[ZAZNACZ MAKSIMUM %0d(zaznaczone czerwonym)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[ŚREDNIA REMISOWA %0d(niebieskie szczyty)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[WSTRZYMANIE SZCZYTU:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[WYŁĄCZONE]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Jeśli chcesz, możesz ustawić zatrzymanie wartości szczytowej tak, aby opadała z upływem czasu, podobnie jak w  wyświetlaczach EQ starych systemów stereo.]]></PEAK_DECAY_HELP>

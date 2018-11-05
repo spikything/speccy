@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[DIMENSIONE DELLA %0dCASCATA: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[PALETTA DELLA CASCATA]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[DISEGNARE MASSIMO (picchi rossi)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[DRAW MEDIA (picchi blu)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[DECADIMENTO DEL PICCO:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[VIA]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Se lo desideri, puoi impostare il picco di mantenimento per scendere nel tempo, in modo simile al display EQ dei vecchi sistemi stereo.]]></PEAK_DECAY_HELP>

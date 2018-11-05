@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[WASSERFALLGRÖßE: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[WASSERFALL PALETTE]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[MAXIMUM ZEICHNEN (rote Spitzen)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[DURCHZIEHEN (blaue Spitzen)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[SPITZENVERFALL: ]]></PEAK_DECAY>
     <OFF><![CDATA[AUS]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Wenn Sie möchten, können Sie die Peak-Hold-Funktion im Zeitverlauf einstellen, ähnlich wie bei alten Stereoanlagen.]]></PEAK_DECAY_HELP>

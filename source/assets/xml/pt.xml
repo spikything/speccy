@@ -26,6 +26,7 @@
     <WATERFALL_SIZE><![CDATA[TAMANHO DA %0dCACHOEIRA: ]]></WATERFALL_SIZE>
     <WATERFALL_PALETTE><![CDATA[PALETA DE CACHOEIRA]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[TIRAR O MÁXIMO (picos vermelhos)]]></DRAW_MAX_HOLD>
+	<DRAW_AVG><![CDATA[DESENHAR MÉDIA (picos azuis)]]></DRAW_AVG>
     <PEAK_DECAY><![CDATA[DECADÊNCIA DE PICO:%0d]]></PEAK_DECAY>
     <OFF><![CDATA[FORA]]></OFF>
     <PEAK_DECAY_HELP><![CDATA[Se você quiser, pode definir a retenção de pico para diminuir ao longo do tempo, semelhante à exibição de EQ dos antigos sistemas estéreo.]]></PEAK_DECAY_HELP>

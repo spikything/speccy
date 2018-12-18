@@ -24,6 +24,7 @@
     <TIMES_PER_SECOND><![CDATA[раз в секунду]]></TIMES_PER_SECOND>
     <UNRELIABLE><![CDATA[ненадежный]]></UNRELIABLE>
     <WATERFALL_SIZE><![CDATA[РАЗМЕР ВОДОПАДА: ]]></WATERFALL_SIZE>
+	<WATERFALL_SPEED><![CDATA[СКОРОСТЬ ВОДОПАДА (%)]]></WATERFALL_SPEED>
     <WATERFALL_PALETTE><![CDATA[ВОДОПАДНАЯ ПАЛИТА]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[максимальный максимум%0d(красные пики)]]></DRAW_MAX_HOLD>
 	<DRAW_AVG><![CDATA[средний показатель (синие пики)]]></DRAW_AVG>

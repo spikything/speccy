@@ -1,43 +1,45 @@
-<strings id="ja">
-    <THIS_LANGUAGE><![CDATA[English]]></THIS_LANGUAGE>
-    <EXIT_PROMPT_TEXT><![CDATA[Press BACK again to exit...]]></EXIT_PROMPT_TEXT>
-    <LANGUAGE><![CDATA[Language]]></LANGUAGE>
-    <LANGUAGE_SUBTITLE><![CDATA[Guesses your language by default]]></LANGUAGE_SUBTITLE>
-    <TUTORIAL_TEXT><![CDATA[Speccy is an Audio Spectrum Analyzer. It will display the spectrum of sound detected through your device's microphone.%0d%0d• Tap and drag around the graph to inspect a specific frequency (you can do this while paused too)%0d%0d• Do a 2-finger pinch to zoom in/out%0d%0d• Do a 2-finger drag to pan across the spectrum when zoomed in (experimental)%0d%0d• Tap the CLIPBOARD icon to copy a snapshot of the spectrum data to the clipboard in CSV format (Hz,dB,peak)%0d%0d• Tap the red REFRESH icon to reset the peak hold%0d%0d• Tap this box or your device's BACK button to close help%0d%0d• Send feedback and suggestions to: ]]></TUTORIAL_TEXT>
-    <CLIPBOARD_SUCCESS><![CDATA[Snapshot data copied to clipboard as%0dComma Separated Values: Hz, dB, peak]]></CLIPBOARD_SUCCESS>
-    <CLIPBOARD_FAIL><![CDATA[Sorry, your device didn't let me copy to clipboard]]></CLIPBOARD_FAIL>
-    <RATE_PROMPT><![CDATA[I HOPE YOU'RE ENJOYING SPECCY%0d%0dI'd really appreciate it if you could rate the app, it would help me out a lot. Thanks! This message will self-destruct in {x} seconds.%0d%0dTap HERE to rate, or tap BACK to clear this.]]></RATE_PROMPT>
-    <EXIT_RATE_PROMPT><![CDATA[Thanks for using Speccy. Please consider rating the app to help me out, thanks!%0dTap HERE to rate.%0d%0d]]></EXIT_RATE_PROMPT>
-    <CLOSE><![CDATA[Close]]></CLOSE>
-    <RESET_DEFAULTS><![CDATA[Reset defaults]]></RESET_DEFAULTS>
-    <LANGUAGE_HELP><![CDATA[I need help with translations. If you spot a mistake, or would like your language added, let me know. Thanks :)]]></LANGUAGE_HELP>
-    <MIC_SAMPLE_RATE><![CDATA[MICROPHONE SAMPLE RATE (Hz)%0dAbove 44100 may not be supported]]></MIC_SAMPLE_RATE>
-    <MIC_SAMPLE_RATE_HELP><![CDATA[The sample rate is the number of times per second data is requested from your device's microphone. Note that values higher than 44100 may not be supported, in which case, the maximum of 44100 will be used.]]></MIC_SAMPLE_RATE_HELP>
-    <TAP_TO_CLOSE><![CDATA[Tap this box to close it]]></TAP_TO_CLOSE>
-    <MIC_GAIN><![CDATA[MICROPHONE GAIN: ]]></MIC_GAIN>
-    <MIC_GAIN_HELP><![CDATA[You can boost or reduce your microphone's sensitivity by changing the 'gain', which could be useful for calibrating the analyzer for certain situations The normal/default value is 50%.]]></MIC_GAIN_HELP>
-    <FFT_LENGTH><![CDATA[FFT LENGTH]]></FFT_LENGTH>
-    <FFT_LENGTH_HELP><![CDATA[This is the number of frequency divisions (or 'bins') the analyzer divides the sampled audio into. Higher values give more accurate analysis, but may be slower on some devices.]]></FFT_LENGTH_HELP>
-    <FREQUENCY_SCALE_LOG_BASE><![CDATA[FREQUENCY SCALE LOG BASE]]></FREQUENCY_SCALE_LOG_BASE>
-    <FREQUENCY_SCALE_LOG_HELP><![CDATA[You can change the logarithmic 'base' for the frequency scale. A logarithmic scale is closer to how the human hear perceives sound, but you may want to set the base to 1 for a linear scale.]]></FREQUENCY_SCALE_LOG_HELP>
-    <UPDATE_PERIOD><![CDATA[UPDATE PERIOD (ms)]]></UPDATE_PERIOD>
-    <TIMES_PER_SECOND><![CDATA[times per second]]></TIMES_PER_SECOND>
-    <UNRELIABLE><![CDATA[unreliable]]></UNRELIABLE>
-    <WATERFALL_SIZE><![CDATA[WATERFALL SIZE: ]]></WATERFALL_SIZE>
-    <WATERFALL_PALETTE><![CDATA[WATERFALL PALETTE]]></WATERFALL_PALETTE>
-    <DRAW_MAX_HOLD><![CDATA[DRAW MAX HOLD (red peaks)]]></DRAW_MAX_HOLD>
-    <PEAK_DECAY><![CDATA[PEAK DECAY: ]]></PEAK_DECAY>
-    <OFF><![CDATA[OFF]]></OFF>
-    <PEAK_DECAY_HELP><![CDATA[If you want, you can set the peak hold to drop down over time, similar to the EQ display of old stereo systems.]]></PEAK_DECAY_HELP>
-    <SMOOTHING_FACTOR><![CDATA[SMOOTHING FACTOR: ]]></SMOOTHING_FACTOR>
-    <SMOOTHING_FACTOR_HELP><![CDATA[Reducing this value reduces the 'jitter' of the analyzer, but will make it less responsive/accurate.]]></SMOOTHING_FACTOR_HELP>
-    <MINIMUM_FREQUENCY><![CDATA[MINIMUM FREQUENCY]]></MINIMUM_FREQUENCY>
-    <MAXIMUM_FREQUENCY><![CDATA[MAXIMUM FREQUENCY]]></MAXIMUM_FREQUENCY>
-    <SETTINGS_FOOTER><![CDATA[NOTE: You can still zoom and pan the grid with a%0dtwo-finger pinch and drag (experimental)]]></SETTINGS_FOOTER>
-    <SETTINGS_ROTATE_PROMPT><![CDATA[ROTATE YOUR DEVICE%0dINTO PORTRAIT MODE%0dTO SEE ALL SETTINGS]]></SETTINGS_ROTATE_PROMPT>
-    <LINEAR_SCALE><![CDATA[Linear scale]]></LINEAR_SCALE>
-    <LOGARITHMIC_SCALE><![CDATA[logarithmic scale]]></LOGARITHMIC_SCALE>
-    <NATURAL_LOG_2><![CDATA[Natural logarithm of 2]]></NATURAL_LOG_2>
-    <NATURAL_LOG_BASE><![CDATA[Natural logarithmic base]]></NATURAL_LOG_BASE>
-    <ROOT><![CDATA[root]]></ROOT>
+<strings id="en">
+    <THIS_LANGUAGE><![CDATA[日本人]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[もう一度「戻る」を押すと終了します...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[言語]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[デフォルトであなたの言語を推測する]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccyはオーディオスペクトラムアナライザです。 あなたのデバイスのマイクで検出された音のスペクトラムを表示します。%0d%0d•特定の周波数を検査するためにグラフをタップしてドラッグします（これは一時停止中にも実行できます）。%0d%0d• （実験的）%0d%0d•クリップボードアイコンをタップすると、スペクトルデータのスナップショットがクリップボードにCSV形式でコピーされます（ %0d%0d•ピークホールド%0d%0dをリセットするには、赤の「リフレッシュ」アイコンをタップしてください。•このボックスまたはデバイスの'バック'ボタンをタップするとヘルプ%0d%0dを閉じます。]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[%0dcommaで区切られた値（CSV）としてクリップボードにコピーされたスナップショットデータ：%0dHz、dB、ピーク、平均]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[申し訳ありませんが、あなたの端末はクリップボードにコピーさせませんでした]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[私はあなたがアプリを評価することができれば、それが本当に感謝しています、それは私をたくさん助けてくれるでしょう。 ありがとう！ このメッセージは、{x}秒後に自己消滅します。%0d%0dここをタップして評価したり、「戻る」をタップしてこれをクリアします。]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[Speccyをご利用いただきありがとうございます。 ありがとうございました！%0dここをクリックして評価してください。%0d%0d]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[閉じる]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[デフォルトにリセット]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[私は翻訳の助けが必要です。 間違いを見つけた場合、またはあなたの言語を追加したい場合は、教えてください。 ありがとう:)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[マイクサンプルレート （Hz） 44100 %0d以上は不確実です]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[サンプルレートは、1秒あたりのデータがデバイスのマイクから要求された回数です。 44100より大きい値はサポートされていない可能性があります。その場合、最大44100が使用されます。]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[このボックスをタップすると閉じます]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[マイクゲイン： ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[特定の状況でアナライザのキャリブレーションに役立つ「ゲイン」を変更することで、マイクの感度を上げるか下げることができます。通常/デフォルト値は50%です。]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[FFT長]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[これは、アナライザがサンプリングされたオーディオを分割する周波数分割（または「ビン」）の数です。 値を大きくするほど解析はより正確になりますが、デバイスによっては遅くなることがあります。]]></FFT_LENGTH_HELP>
+    <FREQUENCY_SCALE_LOG_BASE><![CDATA[周波数スケールログベース]]></FREQUENCY_SCALE_LOG_BASE>
+    <FREQUENCY_SCALE_LOG_HELP><![CDATA[周波数スケールの対数ベースを変更することができます。 対数尺度は人間の聴取方法に近いですが、線形尺度の場合は基数を1に設定するとよいでしょう。]]></FREQUENCY_SCALE_LOG_HELP>
+    <UPDATE_PERIOD><![CDATA[更新期間（ms）]]></UPDATE_PERIOD>
+    <TIMES_PER_SECOND><![CDATA[秒あたりの回数]]></TIMES_PER_SECOND>
+    <UNRELIABLE><![CDATA[信頼できない]]></UNRELIABLE>
+    <WATERFALL_SIZE><![CDATA[ウォーターフォールサイズ：%0d]]></WATERFALL_SIZE>
+    <WATERFALL_SPEED><![CDATA[ウォーターフォール・スピード（%）]]></WATERFALL_SPEED>
+    <WATERFALL_PALETTE><![CDATA[ウォーターフォールパレット]]></WATERFALL_PALETTE>
+    <DRAW_MAX_HOLD><![CDATA[最大値を引く（赤いピーク）]]></DRAW_MAX_HOLD>
+    <DRAW_AVG><![CDATA[平均を描く（青いピーク）]]></DRAW_AVG>
+    <PEAK_DECAY><![CDATA[ピークの減衰： ]]></PEAK_DECAY>
+    <OFF><![CDATA[オフ]]></OFF>
+    <PEAK_DECAY_HELP><![CDATA[必要に応じて、古いステレオシステムのEQ表示と同様に、ピークホールドを時間の経過とともにドロップするように設定できます。]]></PEAK_DECAY_HELP>
+    <SMOOTHING_FACTOR><![CDATA[スムージングファクター：%0d]]></SMOOTHING_FACTOR>
+    <SMOOTHING_FACTOR_HELP><![CDATA[この値を小さくすると、アナライザのジッタが減少しますが、応答性が低く正確になります。]]></SMOOTHING_FACTOR_HELP>
+    <MINIMUM_FREQUENCY><![CDATA[最小周波数]]></MINIMUM_FREQUENCY>
+    <MAXIMUM_FREQUENCY><![CDATA[最大周波数]]></MAXIMUM_FREQUENCY>
+    <SETTINGS_FOOTER><![CDATA[注： の2本の指のピンチとドラッグ（実験的）を使用して、%0dグリッドを拡大/]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[あなたのデバイス%0dをポートレートモード%0dに回してすべての設定を見る]]></SETTINGS_ROTATE_PROMPT>
+    <LINEAR_SCALE><![CDATA[リニアスケール]]></LINEAR_SCALE>
+    <LOGARITHMIC_SCALE><![CDATA[対数スケール]]></LOGARITHMIC_SCALE>
+    <NATURAL_LOG_2><![CDATA[2の自然対数]]></NATURAL_LOG_2>
+    <NATURAL_LOG_BASE><![CDATA[自然対数底]]></NATURAL_LOG_BASE>
+    <ROOT><![CDATA[ルート]]></ROOT>
 </strings>

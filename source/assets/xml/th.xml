@@ -24,6 +24,7 @@
     <TIMES_PER_SECOND><![CDATA[ครั้งต่อวินาที]]></TIMES_PER_SECOND>
     <UNRELIABLE><![CDATA[ไม่น่าเชื่อถือ]]></UNRELIABLE>
     <WATERFALL_SIZE><![CDATA[ขนาดน้ำตก: ]]></WATERFALL_SIZE>
+	<WATERFALL_SPEED><![CDATA[ความเร็วลม (%)]]></WATERFALL_SPEED>
     <WATERFALL_PALETTE><![CDATA[จานน้ำตก]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[วาดสูงสุด (ยอดแดง)]]></DRAW_MAX_HOLD>
 	<DRAW_AVG><![CDATA[วาดค่าเฉลี่ย (ยอดสีฟ้า)]]></DRAW_AVG>

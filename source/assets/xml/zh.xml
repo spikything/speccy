@@ -4,18 +4,18 @@
     <LANGUAGE><![CDATA[语言]]></LANGUAGE>
     <LANGUAGE_SUBTITLE><![CDATA[默认情况下猜测你的语言]]></LANGUAGE_SUBTITLE>
     <TUTORIAL_TEXT><![CDATA[Speccy是一款音频频谱分析仪。 它会显示通过设备麦克风检测到的声音频谱  •点击并拖动图表检查特定频率（您也可以在暂停时进行此操作）  •执行2指捏合 放大/缩小  •当放大（实验）  时，执行2指拖动以平移谱图•点击“剪贴板”图标，以CSV格式将光谱数据的快照复制到剪贴板 格式（Hz，dB，峰值）  •点击红色“刷新”图标重置峰值保持  •点击该框或设备的“返回”按钮关闭帮助  •发送反馈 并建议： ]]></TUTORIAL_TEXT>
-    <CLIPBOARD_SUCCESS><![CDATA[快照数据以 ％0d 形式复制到剪贴板逗号分隔值：Hz，dB，峰值]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_SUCCESS><![CDATA[快照数据以 %0d 形式复制到剪贴板逗号分隔值：Hz，dB，峰值]]></CLIPBOARD_SUCCESS>
     <CLIPBOARD_FAIL><![CDATA[对不起，你的设备没有让我复制到剪贴板]]></CLIPBOARD_FAIL>
-    <RATE_PROMPT><![CDATA[我希望你喜欢SPECCY ％0d  ％0d 我真的很感激它，如果你可以评价应用程序，它会帮助我很多。 谢谢！ 此消息将在{x}秒内自毁。 ％0d  ％0d 点击“此处”进行评分，或点击“后退”以清除此信息。]]></RATE_PROMPT>
-    <EXIT_RATE_PROMPT><![CDATA[感谢您使用Speccy。 请考虑评价应用程序来帮助我，谢谢！ ％0d 点击“此处”进行评分。 ％0d  ％0d ]]></EXIT_RATE_PROMPT>
+    <RATE_PROMPT><![CDATA[我希望你喜欢SPECCY %0d  %0d 我真的很感激它，如果你可以评价应用程序，它会帮助我很多。 谢谢！ 此消息将在{x}秒内自毁。 %0d  %0d 点击“此处”进行评分，或点击“后退”以清除此信息。]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[感谢您使用Speccy。 请考虑评价应用程序来帮助我，谢谢！ %0d 点击“此处”进行评分。 %0d  %0d ]]></EXIT_RATE_PROMPT>
     <CLOSE><![CDATA[关]]></CLOSE>
     <RESET_DEFAULTS><![CDATA[重置默认值]]></RESET_DEFAULTS>
     <LANGUAGE_HELP><![CDATA[我需要帮助翻译。 如果您发现错误，或者希望添加您的语言，请告诉我。 谢谢 ：）]]></LANGUAGE_HELP>
-    <MIC_SAMPLE_RATE><![CDATA[麦克风示例速率（Hz） 高于44100可能不受支持]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE><![CDATA[麦克风示例速率（Hz） %0d高于44100可能不受支持]]></MIC_SAMPLE_RATE>
     <MIC_SAMPLE_RATE_HELP><![CDATA[采样率是从设备的麦克风请求每秒数据的次数。 请注意，高于44100的值可能不被支持，在这种情况下，将使用最大值44100。]]></MIC_SAMPLE_RATE_HELP>
     <TAP_TO_CLOSE><![CDATA[点击此框关闭它]]></TAP_TO_CLOSE>
     <MIC_GAIN><![CDATA[麦克风增益： ]]></MIC_GAIN>
-    <MIC_GAIN_HELP><![CDATA[您可以通过改变“增益”来提高或降低麦克风的灵敏度，这对于在某些情况下校准分析仪很有用。正常/默认值为50％。]]></MIC_GAIN_HELP>
+    <MIC_GAIN_HELP><![CDATA[您可以通过改变“增益”来提高或降低麦克风的灵敏度，这对于在某些情况下校准分析仪很有用。正常/默认值为50%。]]></MIC_GAIN_HELP>
     <FFT_LENGTH><![CDATA[FFT长度]]></FFT_LENGTH>
     <FFT_LENGTH_HELP><![CDATA[这是分析仪将采样音频分成的分频次数（或BINS）数量。 值越高，分析越准确，但在某些设备上可能会变慢。]]></FFT_LENGTH_HELP>
     <FREQUENCY_SCALE_LOG_BASE><![CDATA[频率刻度记录库]]></FREQUENCY_SCALE_LOG_BASE>
@@ -24,6 +24,7 @@
     <TIMES_PER_SECOND><![CDATA[次/秒]]></TIMES_PER_SECOND>
     <UNRELIABLE><![CDATA[靠不住]]></UNRELIABLE>
     <WATERFALL_SIZE><![CDATA[瀑布尺寸: ]]></WATERFALL_SIZE>
+	<WATERFALL_SPEED><![CDATA[瀑布速度 (%)]]></WATERFALL_SPEED>
     <WATERFALL_PALETTE><![CDATA[瀑布调色板]]></WATERFALL_PALETTE>
     <DRAW_MAX_HOLD><![CDATA[绘制最大持有量（红色峰值）]]></DRAW_MAX_HOLD>
 	<DRAW_AVG><![CDATA[绘制平均值（蓝色峰值）]]></DRAW_AVG>
@@ -34,8 +35,8 @@
     <SMOOTHING_FACTOR_HELP><![CDATA[减小此值可减少分析仪的“抖动”，但会降低其响应性/准确性。]]></SMOOTHING_FACTOR_HELP>
     <MINIMUM_FREQUENCY><![CDATA[最低频率]]></MINIMUM_FREQUENCY>
     <MAXIMUM_FREQUENCY><![CDATA[最大频率]]></MAXIMUM_FREQUENCY>
-    <SETTINGS_FOOTER><![CDATA[注意：您仍然可以使用 ％0d 两指捏和拖动（实验）方式来缩放和平移网格，]]></SETTINGS_FOOTER>
-    <SETTINGS_ROTATE_PROMPT><![CDATA[将您的设备 ％0d 转到肖像模式 ％0d 以查看所有设置]]></SETTINGS_ROTATE_PROMPT>
+    <SETTINGS_FOOTER><![CDATA[注意：您仍然可以使用 两指捏和拖动（实验） %0d方式来缩放和平移网格，]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[将您的设备 %0d 转到肖像模式 %0d 以查看所有设置]]></SETTINGS_ROTATE_PROMPT>
     <LINEAR_SCALE><![CDATA[线性刻度]]></LINEAR_SCALE>
     <LOGARITHMIC_SCALE><![CDATA[对数尺度]]></LOGARITHMIC_SCALE>
     <NATURAL_LOG_2><![CDATA[2的自然对数]]></NATURAL_LOG_2>

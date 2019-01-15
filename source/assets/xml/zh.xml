@@ -42,4 +42,5 @@
     <NATURAL_LOG_2><![CDATA[2的自然对数]]></NATURAL_LOG_2>
     <NATURAL_LOG_BASE><![CDATA[自然对数基数]]></NATURAL_LOG_BASE>
     <ROOT><![CDATA[根]]></ROOT>
+	<WINDOW_FUNCTION><![CDATA[窗口功能]]></WINDOW_FUNCTION>
 </strings>

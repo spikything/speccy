@@ -42,4 +42,5 @@
     <NATURAL_LOG_2><![CDATA[2の自然対数]]></NATURAL_LOG_2>
     <NATURAL_LOG_BASE><![CDATA[自然対数底]]></NATURAL_LOG_BASE>
     <ROOT><![CDATA[ルート]]></ROOT>
+	<WINDOW_FUNCTION><![CDATA[窓関数]]></WINDOW_FUNCTION>
 </strings>

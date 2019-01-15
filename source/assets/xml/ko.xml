@@ -42,4 +42,5 @@
     <NATURAL_LOG_2><![CDATA[2의 자연 로그]]></NATURAL_LOG_2>
     <NATURAL_LOG_BASE><![CDATA[자연 대수 기본]]></NATURAL_LOG_BASE>
     <ROOT><![CDATA[뿌리]]></ROOT>
+	<WINDOW_FUNCTION><![CDATA[창 함수]]></WINDOW_FUNCTION>
 </strings>

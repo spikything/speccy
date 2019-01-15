@@ -42,4 +42,5 @@
     <NATURAL_LOG_2><![CDATA[Natural logarithm of 2]]></NATURAL_LOG_2>
     <NATURAL_LOG_BASE><![CDATA[Natural logarithmic base]]></NATURAL_LOG_BASE>
     <ROOT><![CDATA[root]]></ROOT>
+    <WINDOW_FUNCTION><![CDATA[window function]]></WINDOW_FUNCTION>
 </strings>

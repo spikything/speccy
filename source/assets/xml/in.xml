@@ -1,0 +1,46 @@
+<strings id="en">
+    <THIS_LANGUAGE><![CDATA[Indonesia]]></THIS_LANGUAGE>
+    <EXIT_PROMPT_TEXT><![CDATA[Tekan KEMBALI lagi untuk keluar...]]></EXIT_PROMPT_TEXT>
+    <LANGUAGE><![CDATA[Bahasa]]></LANGUAGE>
+    <LANGUAGE_SUBTITLE><![CDATA[Tebak bahasa Anda secara default]]></LANGUAGE_SUBTITLE>
+    <TUTORIAL_TEXT><![CDATA[Speccy adalah penganalisa spektrum audio. Ini akan menampilkan spektrum suara yang terdeteksi melalui mikrofon perangkat Anda.%0d%0d• Ketuk dan seret di sekitar grafik untuk memeriksa frekuensi tertentu (Anda juga dapat melakukannya saat dijeda)%0d%0d• Lakukan cubitan 2 jari untuk perbesar / perkecil%0d%0d• Seret 2 jari untuk menggeser seluruh spektrum saat diperbesar (percobaan)%0d%0d• Ketuk ikon CLIPBOARD untuk menyalin potret data spektrum ke clipboard dalam format CSV (Hz, dB, puncak, rata-rata)%0d%0d• Ketuk ikon REFRESH merah untuk mengatur ulang penahanan puncak%0d%0d• Ketuk kotak ini atau tombol KEMBALI perangkat Anda untuk menutup bantuan%0d%0d• Kirim umpan balik dan saran ke: ]]></TUTORIAL_TEXT>
+    <CLIPBOARD_SUCCESS><![CDATA[Data snapshot disalin ke clipboard sebagai%0dcomma separated values (CSV):%0dHz, dB, puncak, rata-rata]]></CLIPBOARD_SUCCESS>
+    <CLIPBOARD_FAIL><![CDATA[Maaf, perangkat Anda tidak mengizinkan saya menyalin ke clipboard]]></CLIPBOARD_FAIL>
+    <RATE_PROMPT><![CDATA[SAYA BERHARAP ANDA MENIKMATI SPECCY%0d%0dSaya sangat menghargai itu jika Anda dapat menilai aplikasi, itu akan banyak membantu saya. Terima kasih! Pesan ini akan dihancurkan sendiri dalam {x} detik.%0d%0dTAPI SINI untuk menilai, atau ketuk KEMBALI untuk menghapus ini.]]></RATE_PROMPT>
+    <EXIT_RATE_PROMPT><![CDATA[Terima kasih telah menggunakan Speccy. Silakan pertimbangkan peringkat aplikasi untuk membantu saya, terima kasih!%0dAPAPKAN SINI untuk menilai.%0d%0d]]></EXIT_RATE_PROMPT>
+    <CLOSE><![CDATA[Dekat]]></CLOSE>
+    <RESET_DEFAULTS><![CDATA[ulang defaults]]></RESET_DEFAULTS>
+    <LANGUAGE_HELP><![CDATA[Saya butuh bantuan dengan terjemahan. Jika Anda menemukan kesalahan, atau ingin bahasa Anda ditambahkan, beri tahu saya. Terima kasih :)]]></LANGUAGE_HELP>
+    <MIC_SAMPLE_RATE><![CDATA[TINGKAT SAMPEL MIKROFON (Hz)%0dDi atas 44100 mungkin tidak didukung]]></MIC_SAMPLE_RATE>
+    <MIC_SAMPLE_RATE_HELP><![CDATA[Kecepatan sampel adalah berapa kali per detik data diminta dari mikrofon perangkat Anda. Perhatikan bahwa nilai yang lebih tinggi dari 44100 mungkin tidak didukung, dalam hal ini, maksimum 44100 akan digunakan.]]></MIC_SAMPLE_RATE_HELP>
+    <TAP_TO_CLOSE><![CDATA[Ketuk kotak ini untuk menutupnya]]></TAP_TO_CLOSE>
+    <MIC_GAIN><![CDATA[GAIN MIKROFON: ]]></MIC_GAIN>
+    <MIC_GAIN_HELP><![CDATA[Anda dapat meningkatkan atau mengurangi sensitivitas mikrofon Anda dengan mengubah 'penguatan', yang dapat berguna untuk mengkalibrasi alat analisis untuk situasi tertentu. Nilai normal / standar adalah 50%.]]></MIC_GAIN_HELP>
+    <FFT_LENGTH><![CDATA[PANJANG FFT]]></FFT_LENGTH>
+    <FFT_LENGTH_HELP><![CDATA[Ini adalah jumlah pembagian frekuensi (atau 'nampan') yang digunakan penganalisis untuk membagi sampel audio menjadi. Nilai yang lebih tinggi memberikan analisis yang lebih akurat, tetapi mungkin lebih lambat pada beberapa perangkat.]]></FFT_LENGTH_HELP>
+    <FREQUENCY_SCALE_LOG_BASE><![CDATA[BASIS LOG SKALA FREKUENSI]]></FREQUENCY_SCALE_LOG_BASE>
+    <FREQUENCY_SCALE_LOG_HELP><![CDATA[Anda dapat mengubah 'basis' logaritmik untuk skala frekuensi. Skala logaritmik lebih dekat dengan cara manusia mendengar suara, tetapi Anda mungkin ingin mengatur basis ke 1 untuk skala linier.]]></FREQUENCY_SCALE_LOG_HELP>
+    <UPDATE_PERIOD><![CDATA[PERIODE PEMBARUAN (ms)]]></UPDATE_PERIOD>
+    <TIMES_PER_SECOND><![CDATA[kali per detik]]></TIMES_PER_SECOND>
+    <UNRELIABLE><![CDATA[tidak bisa diandalkan]]></UNRELIABLE>
+    <WATERFALL_SIZE><![CDATA[UKURAN AIR TERJUN: ]]></WATERFALL_SIZE>
+    <WATERFALL_SPEED><![CDATA[KECEPATAN AIR TERJUN (%)]]></WATERFALL_SPEED>
+    <WATERFALL_PALETTE><![CDATA[PALET AIR TERJUN]]></WATERFALL_PALETTE>
+    <DRAW_MAX_HOLD><![CDATA[GAMBAR MAKSIMAL (puncak merah)]]></DRAW_MAX_HOLD>
+    <DRAW_AVG><![CDATA[GAMBAR RATA-RATA (puncak biru)]]></DRAW_AVG>
+    <PEAK_DECAY><![CDATA[PEMBUSUKAN PUNCAK:%0d]]></PEAK_DECAY>
+    <OFF><![CDATA[MATI]]></OFF>
+    <PEAK_DECAY_HELP><![CDATA[Jika mau, Anda dapat mengatur penahan puncak agar drop-down seiring waktu, mirip dengan tampilan EQ sistem stereo lama.]]></PEAK_DECAY_HELP>
+    <SMOOTHING_FACTOR><![CDATA[FAKTOR PEMULUSAN:%0d]]></SMOOTHING_FACTOR>
+    <SMOOTHING_FACTOR_HELP><![CDATA[Mengurangi nilai ini mengurangi 'naik opelet' dari penganalisa, tetapi akan membuatnya kurang responsif / akurat.]]></SMOOTHING_FACTOR_HELP>
+    <MINIMUM_FREQUENCY><![CDATA[FREKUENSI MINIMUM]]></MINIMUM_FREQUENCY>
+    <MAXIMUM_FREQUENCY><![CDATA[FREKUENSI MAKSIMUM]]></MAXIMUM_FREQUENCY>
+    <SETTINGS_FOOTER><![CDATA[CATATAN: Anda masih dapat memperbesar dan menggeser %0dkisi-kisi dengan cubitan dan seret tiga jari (eksperimental)]]></SETTINGS_FOOTER>
+    <SETTINGS_ROTATE_PROMPT><![CDATA[PUTAR PERANGKAT ANDA%0dKE MODE POTRET %0dUNTUK MELIHAT SEMUA %0dPENGATURAN]]></SETTINGS_ROTATE_PROMPT>
+    <LINEAR_SCALE><![CDATA[Skala linear]]></LINEAR_SCALE>
+    <LOGARITHMIC_SCALE><![CDATA[skala logaritmik]]></LOGARITHMIC_SCALE>
+    <NATURAL_LOG_2><![CDATA[Logaritma natural 2]]></NATURAL_LOG_2>
+    <NATURAL_LOG_BASE><![CDATA[Basis logaritmik alami]]></NATURAL_LOG_BASE>
+    <ROOT><![CDATA[akar]]></ROOT>
+    <WINDOW_FUNCTION><![CDATA[fungsi jendela]]></WINDOW_FUNCTION>
+</strings>
